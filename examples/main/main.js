@@ -3,6 +3,7 @@
 const canvas = document.getElementById('game');
 const engine = new Engine({canvas, width: 800, height: 600, pixelRatio: 1});
 
+// Create Box Entity
 class Box extends Entity {
   constructor(x,y){
     super({
@@ -11,3 +12,4 @@ class Box extends Entity {
       color:'#f90'
     })
   }
+
