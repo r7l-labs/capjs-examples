@@ -12,4 +12,16 @@ class Box extends Entity {
       color:'#f90'
     })
   }
+}
 
+// Initialize New Scene
+const scene = new Scene();
+
+// Add a box to the scene (previously defined)
+scene.add(new Box(300, 200);
+
+engine.setScene(scene);
+engine.start();
+
+// expose for dev console
+window.cap = {engine, scene, player};
