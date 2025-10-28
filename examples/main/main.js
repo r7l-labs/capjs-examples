@@ -24,4 +24,5 @@ engine.setScene(scene);
 engine.start();
 
 // expose for dev console
-window.cap = {engine, scene, player};
+window.cap = {engine, scene};
+
